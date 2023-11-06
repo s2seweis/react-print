@@ -17,6 +17,17 @@ const AppRouter = () => {
                         <div>
                             <Link to="/">PrintJS</Link>
                         </div>
+                        <div>
+                            <Link to="/">react-thermal-printer</Link>
+                            <h5>https://github.com/seokju-na/react-thermal-printer</h5>
+                        </div>
+                        <div>
+                            <Link to="/">react-thermal-printer</Link>
+                            <h5>https://github.com/seokju-na/react-thermal-printer</h5>
+                        </div>
+                        <div>
+                            <Link to="/">esc-pos-encoder usb bluetooth-serial-port</Link>
+                        </div>
                     </div>
                 </nav>
 
