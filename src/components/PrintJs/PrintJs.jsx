@@ -1,6 +1,7 @@
 import React from 'react';
 import printJS from 'print-js';
 import './PrintJs.css';
+import data from '../data';
 
 const PrintJs = () => {
   const handlePrint = () => {
@@ -13,7 +14,10 @@ const PrintJs = () => {
       <h1>Print JS</h1>
       <div id="printable-content">
         {/* Content you want to print */}
-        <p>This is the content you want to print.</p>
+        {/* <p>Why do programmers prefer dark mode?
+
+          Because light attracts too many bugs!</p> */}
+          {data.joke2.text}
       </div>
       <button onClick={handlePrint}>Print</button>
     </div>

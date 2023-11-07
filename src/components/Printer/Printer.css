@@ -1,0 +1,15 @@
+/* AutoPrintComponent.css */
+
+@media print {
+    /* Define styles for printing */
+    body {
+      font-family: Arial, sans-serif;
+    }
+  
+    h1 {
+      color: #000; /* Text color for printed content */
+    }
+    
+    /* Add more styles as needed for your specific layout */
+  }
+  
