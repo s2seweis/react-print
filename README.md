@@ -6,8 +6,6 @@ This is a simple React application demonstrating how to print content using Prin
 
 ### Coming: bypass the browser's print dialog and print directly to a specified printer without any user interaction, an explanation to it you find in interisting.md file
 
-Follow these instructions to get a copy of the project up and running on your local machine.
-
 ## Prerequisites
 
 Make sure you have Node.js and npm installed on your machine.
