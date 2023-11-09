@@ -1,39 +1,27 @@
 import React from 'react';
-import './Printer.css'; // Import your CSS file for styling (optional)
+import { useReactToPrint } from 'react-to-print';
 
-const PrintButton = () => {
-  const handlePrint = () => {
-    const printWindow = window.open('', '_blank'); // Open a new blank window or tab
+const PrintComponent = () => {
+  const componentRef = React.useRef();
 
-    // Content to be printed
-    const contentToPrint = `
-      <html>
-        <head>
-          <title>Print Document</title>
-          <link rel="stylesheet" href="path/to/your/print-styles.css" type="text/css" media="print">
-        </head>
-        <body>
-          <h1>Content to be printed without opening a window</h1>
-          <!-- Add your content that you want to print here -->
-        </body>
-      </html>
-    `;
-
-    printWindow.document.write(contentToPrint);
-    printWindow.document.close();
-    printWindow.print(); // Print the content
-
-    // Close the print window after printing (optional)
-    printWindow.onafterprint = () => {
-      printWindow.close();
-    };
-  };
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
 
   return (
     <div>
-      <button onClick={handlePrint}>Print</button>
+      {/* Button to trigger print */}
+      <button style={{marginTop:"20px"}} onClick={handlePrint}>Print</button>
+
+      {/* Component to be printed */}
+      <div style={{ display: 'none' }}>
+        <div ref={componentRef}>
+          {/* Content to be printed */}
+          <h1>Hello, World!</h1>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default PrintButton;
+export default PrintComponent;
