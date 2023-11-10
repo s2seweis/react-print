@@ -3,7 +3,7 @@ import escpos from 'escpos-xml'; // Import the escpos library
 
 import './ThermalPrinter.css'; // Import the CSS file
 
-const data = "Hello, Thermal Printer!";
+const data = "Hello, Thermal Printer!, You need first to set the printer settings. ";
 
 const ThermalPrinter = () => {
   const printerRef = useRef();
