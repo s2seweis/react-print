@@ -4,7 +4,6 @@ This is a simple React application demonstrating how to print content using Prin
 
 ## Table of Contents
 
-- [Styling](#styling)
 - [PrintJS](#printjs)
 - [React-to-print](#react-to-print)
 - [Escpos-Xml](#escpos-Xml)
@@ -46,17 +45,17 @@ Make sure you have Node.js and npm installed on your machine.
 
 To test printing using PrintJS, follow these steps:
 
-- Open `src/components/PrintWithPrintJS.js` file.
-- Customize the content you want to print inside the `printContent` function.
-- Save the file.
-- Run the application:
+* Open `src/components/PrintWithPrintJS.js` file.
+* Customize the content you want to print inside the `printContent` function.
+* Save the file.
+* Run the application:
 
   ```bash
   npm start
   ```
 
-- Open the browser and visit [http://localhost:3000](http://localhost:3000).
-- Click the "Print with PrintJS" button to test printing using PrintJS.
+* Open the browser and visit [http://localhost:3000](http://localhost:3000).
+* Click the "Print with PrintJS" button to test printing using PrintJS.
 
 ## React-to-print
 
