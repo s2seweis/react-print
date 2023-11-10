@@ -11,6 +11,7 @@ export const ReactToPrint = () => {
 
   return (
     <div>
+      <h1>React To Print</h1>
       <ComponentToPrint ref={componentRef} />
       <button onClick={handlePrint}>Print this out!</button>
     </div>

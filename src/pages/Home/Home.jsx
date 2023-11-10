@@ -6,7 +6,6 @@ import ThermalPrinter from '../../components/ThermalPrinter/ThermalPrinter';
 const Home = () => {
   return (
     <div className="home">
-      <h1>React To Print</h1>
       <ReactToPrint/>
       <PrintJs/>
       <hr/>
