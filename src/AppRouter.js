@@ -8,23 +8,17 @@ const AppRouter = () => {
             <div>
                 <nav>
                     <div>
-                        <div style={{marginBottom:"20px"}}>
-                            <Link style={{textDecoration:"none"}}  to="/">Home</Link>
+                        <div>
+                            <Link to="/">Home</Link>
                         </div>
                         <div>
-                            <Link to="/">React-To-Print</Link>
-                            <h5>https://github.com/seokju-na/react-thermal-printer</h5>
+                            <Link to="https://github.com/seokju-na/react-thermal-printer">React-To-Print</Link>
                         </div>
                         <div>
-                            <Link to="/">PrintJS</Link>
-                            <h5>https://github.com/seokju-na/react-thermal-printer</h5>
+                            <Link to="https://github.com/seokju-na/react-thermal-printer">PrintJS</Link>
                         </div>
                         <div>
-                            <Link to="/">react-thermal-printer</Link>
-                            <h5>https://github.com/seokju-na/react-thermal-printer</h5>
-                        </div>
-                        <div>
-                            <Link to="/">esc-pos-encoder usb bluetooth-serial-port</Link>
+                            <Link to="https://github.com/seokju-na/react-thermal-printer">react-thermal-printer</Link>
                         </div>
                     </div>
                 </nav>

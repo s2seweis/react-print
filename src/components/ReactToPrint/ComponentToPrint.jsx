@@ -9,7 +9,7 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
 
         Because they like their code as bitter as their coffee!</div> */}
 
-      <div ref={ref}>{data.joke1.text}</div>
+      <div style={{marginBottom:"20px"}} ref={ref}>{data.joke1.text}</div>
     </div>
   );
 });

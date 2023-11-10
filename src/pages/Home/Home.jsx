@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactToPrint } from '../../components/ReactToPrint/ReactToPrint';
 import PrintJs from '../../components/PrintJs/PrintJs';
-import PrintComponent from '../../components/Printer/Printer';
+import ThermalPrinter from '../../components/ThermalPrinter/ThermalPrinter';
 
 const Home = () => {
   return (
@@ -9,7 +9,8 @@ const Home = () => {
       <h1>React To Print</h1>
       <ReactToPrint/>
       <PrintJs/>
-      {/* <PrintComponent/> */}
+      <hr/>
+      <ThermalPrinter/>
     </div>
   );
 };

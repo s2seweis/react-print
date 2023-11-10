@@ -5,7 +5,7 @@ import AppRouter from './AppRouter';
 function App() {
   return (
     <div className="App">
-    <h1>React App with Routing</h1>
+    {/* <h1>React App with Routing</h1> */}
     <AppRouter />
   </div>
 
